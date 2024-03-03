@@ -24,6 +24,9 @@
                 <VModelComp/>
                 <VSlot/>
                 <VPre/>
+                <VOnce/>
+                <VMemo/>
+                <VCloak/>
             </div>
         </div>
     </div>
@@ -32,12 +35,15 @@
 <script setup lang="ts">
 
     import VBind from "./components/VBind.vue"
+    import VCloak from "./components/VCloak.vue"
     import VElseCom from "./components/VElseCom.vue"
     import VElseIfCom from "./components/VElseIfCom.vue"
     import VFor from "./components/VFor.vue"
     import VHtml from "./components/VHtml.vue"
     import VIfCom from "./components/VIfCom.vue"
+    import VMemo from "./components/VMemo.vue"
     import VModelComp from "./components/VModelComp.vue"
+    import VOnce from "./components/VOnce.vue"
     import VOnComp from "./components/VOnComp.vue"
     import VPre from "./components/VPre.vue"
     import VShow from "./components/VShow.vue"
